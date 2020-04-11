@@ -40,6 +40,11 @@ target_link_libraries(G4McMasterDDS ${Geant4_LIBRARIES})
 set(G4MCMASTERDDS_SCRIPTS
   macros/vis.mac
   macros/runElectronUniformLogISO.mac
+  macros/runGammaUniformLogISO.mac
+  macros/runCl36ISO.mac
+  macros/runCo60ISO.mac
+  macros/runSr90Y90ISO.mac
+  macros/runCs137ISO.mac
 )
 
 foreach(_script ${G4MCMASTERDDS_SCRIPTS})

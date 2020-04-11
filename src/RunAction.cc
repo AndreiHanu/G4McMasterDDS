@@ -155,7 +155,7 @@ void RunAction::BeginOfRunAction(const G4Run* aRun)
 		analysisManager->OpenFile();
 		
 		// Get the local time at the start of the simulation
-		time_t now = time(0);
+		start_time = time(0);
 		
 		// Create an information file for the run using the same filename as the Analysis Manager
     	outputFile_INFO = analysisManager->GetFileName() + ".info";
@@ -167,8 +167,8 @@ void RunAction::BeginOfRunAction(const G4Run* aRun)
 		// Export Source Information
 		outFile_INFO << "==== Simulation Information ======================================================" << G4endl;
 		outFile_INFO << G4endl;
-		outFile_INFO << "Run ID: \t\t" <<  aRun->GetRunID();
-		outFile_INFO << "Start Time: \t\t" <<  ctime(&now);
+		outFile_INFO << "Run ID: \t\t\t" <<  aRun->GetRunID() << G4endl;
+		outFile_INFO << "Start Time: \t\t" <<  ctime(&start_time);
   	}
   	
 }
@@ -188,10 +188,11 @@ void RunAction::EndOfRunAction(const G4Run* aRun)
 		std::ofstream outFile_INFO(outputFile_INFO,std::ios::out|std::ios::app);
 		
 		// Get the local time at the end of the simulation
-		time_t now = time(0);
+		end_time = time(0);
     	
     	// Export Source Information
-    	outFile_INFO << "End Time: \t\t\t" <<  ctime(&now);
+    	outFile_INFO << "End Time: \t\t\t" <<  ctime(&end_time);
+		outFile_INFO << "Elapsed Time: \t\t" <<  difftime(end_time, start_time) << " seconds" << G4endl;	
 		outFile_INFO << G4endl;
 		outFile_INFO << "=== Source Information ===========================================================" << G4endl;
 		outFile_INFO << G4endl;

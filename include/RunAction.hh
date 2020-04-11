@@ -35,6 +35,10 @@ class RunAction : public G4UserRunAction
 		G4double ELowLog;
 		G4double EHighLog;
 		G4int nBinsLog;
+
+		// Time Parameters
+		time_t start_time;
+		time_t end_time;
 		
 		// Output File
 		G4String outputFile_INFO;
