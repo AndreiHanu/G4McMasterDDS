@@ -18,6 +18,7 @@ The simulation works both in sequential and in multi-threaded (MT) modes of Gean
 
 ## Steps to compile:
 ### Step 1 - Source the Geant4 environment setup script
+### NOTE: You'll need to change the version of Geant4 in the path
 
     source /opt/Geant4/geant4.10.03.p01-install/bin/geant4.sh
 
