@@ -1,4 +1,4 @@
-## Welcome to G4McMasterDDS
+## Welcome to G4McMasterDDS (Test)
 G4McMasterDDS is an application based on the Geant4 Monte Carlo toolkit for simulating the response (i.e. geometric factor, efficiency, energy migration matrix, etc) of the McMaster University dual detector system (DDS) that was used for measuring the beta- and gamma-ray source term within CANDU nuclear power plants.
 
 The McMaster DDS consists of a Saint Gobain BrilLanCe 380 LaBr3(Ce) detector and Eljen Technologies M550-20x8-1 Plastic Scintillator (EJ-204) detector that are mounted to a common detector bracket which enables simultaneous and co-located measurements. 
