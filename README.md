@@ -53,3 +53,6 @@ During a run, the data collected on an event-by-event basis is histogrammed into
 * The sixth histogram, labeled "Plastic Detector -  Measured Spectrum", records the measured or deposited energy in the Eljen Technologies M550-20x8-1 Plastic Scintillator (EJ-204) detector.
 * The seventh histogram, labeled "Plastic Detector -  Energy Migration Matrix (Gamma)", records a 2D histogram of the true kinetic energy versus measured/deposited energy in the Eljen Technologies M550-20x8-1 Plastic Scintillator (EJ-204) detector from gamma-rays.
 * The eight histogram, labeled "Plastic Detector -  Energy Migration Matrix (Electron)", records a 2D histogram of the true kinetic energy versus measured/deposited energy in the Eljen Technologies M550-20x8-1 Plastic Scintillator (EJ-204) detector from electrons.
+
+##
+<img src="vis.png"/>

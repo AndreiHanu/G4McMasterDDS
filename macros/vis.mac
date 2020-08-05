@@ -25,7 +25,7 @@
 
 # Create empty scene
 /vis/scene/create
-/vis/open OGLSQt 1000x1000-0+0
+/vis/open OGL 1000x1000-0+0
 
 # Draw the scene
 /vis/drawVolume
