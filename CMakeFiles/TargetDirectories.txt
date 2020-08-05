@@ -1,7 +1,0 @@
-/home/hanua/G4WORK/G4McMasterDDS/CMakeFiles/install/strip.dir
-/home/hanua/G4WORK/G4McMasterDDS/CMakeFiles/install/local.dir
-/home/hanua/G4WORK/G4McMasterDDS/CMakeFiles/install.dir
-/home/hanua/G4WORK/G4McMasterDDS/CMakeFiles/list_install_components.dir
-/home/hanua/G4WORK/G4McMasterDDS/CMakeFiles/rebuild_cache.dir
-/home/hanua/G4WORK/G4McMasterDDS/CMakeFiles/edit_cache.dir
-/home/hanua/G4WORK/G4McMasterDDS/CMakeFiles/G4McMasterDDS.dir
